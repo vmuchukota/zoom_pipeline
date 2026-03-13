@@ -1,0 +1,24 @@
+0.00 --> 5.60:  Oh, this is the Zoom pipeline testing video.
+5.60 --> 8.80:  It's going to be giving a fake script.
+8.80 --> 9.80:  Hi, everyone.
+9.80 --> 11.20:  Thanks for joining today's meeting.
+11.20 --> 16.20:  I wanted to give a quick update on the progress of the meeting processing pipeline.
+16.20 --> 20.20:  So far, I've been working on a building a system that can take Zoom meeting recordings
+20.20 --> 25.10:  and converting them into turn scripts that we can later analyze using language models.
+25.10 --> 29.80:  The first part of the pipeline takes a Zoom recording and extracts the audio from
+29.80 --> 33.00:  the video file for this step.
+33.00 --> 43.00:  I used FFM peg, which allows us to convert the video recording into an audio file,
+43.00 --> 46.30:  which can then be processed by speech recognition tools.
+46.30 --> 49.90:  Once the audio is extracted, the next step is transcription.
+49.90 --> 56.20:  I use whisper text speech to text model to process the audio and to generate a transcript
+56.20 --> 57.40:  of the meeting.
+57.40 --> 61.60:  The transcript includes timestamps for each segment of the speech so we can tackle
+61.60 --> 65.30:  and timings we're said during the meeting.
+65.30 --> 69.80:  This transcript will serve as the input for later stages of the project.
+69.80 --> 75.20:  For example, we could use large language models to summarize the meeting, extract action
+75.20 --> 79.70:  items or identify tasks assigned to different participants.
+79.70 --> 84.90:  For the next steps, I'll look into existing research on processing video and meeting data,
+84.90 --> 89.10:  especially tools that combine audio, text, and video information.
+89.10 --> 95.70:  I will also explore methods for automatically extracting tasks or action items from meeting transcripts.
+95.70 --> 97.90:  This is the main progress update.
+97.90 --> 99.90:  Thank you, everybody.
