@@ -1,0 +1,11 @@
+
+Summary: The meeting discusses a Zoom pipeline for processing recordings into transcripts
+
+Key Points:
+- Audio is extracted using FFmpeg
+- Whisper model is used for transcription
+- LLMs can be used for summarization
+
+Action Items: 
+- Improve task extraction
+- Explore better models
